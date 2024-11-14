@@ -1,10 +1,10 @@
-@import 'config';
-@import 'home';
-@import 'menu';
+@import '_config';
+@import '_home';
+@import '_menu';
 
 body {
     background: $primary-color;
-    color: color set-text-color($primary-color);
+    color: set-text-color($primary-color);
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
